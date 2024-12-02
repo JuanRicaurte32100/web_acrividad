@@ -1,0 +1,445 @@
+/* Detalles del curso */
+.curso-detalle {
+    margin-bottom: 15px;
+}
+
+.curso-detalle strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Botón "Ver Más" */
+.btn-ver-mas {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-ver-mas:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Estilos para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el texto de bienvenida */
+.bienvenida p {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Sección de cursos */
+.cursos {
+    margin: 20px;
+}
+
+/* Título de la sección Cursos Disponibles */
+.cursos h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de los cursos */
+.cursos ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Estilo para cada curso */
+.cursos li {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover en los cursos */
+.cursos li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título del curso */
+.cursos li h3 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la descripción corta del curso */
+.cursos li p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Botón "Ver Más" */
+.btn-ver-mas {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Efecto hover en el botón */
+.btn-ver-mas:hover {
+    background-color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Estilo para el botón de inscripción */
+.btn-inscribirse {
+    display: inline-block;
+    background-color: #28A745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-inscribirse:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+/* Contenedor principal de los cursos */
+.cursos-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los cursos se acomoden en varias filas */
+    justify-content: center; /* Centra los contenedores de los cursos */
+    gap: 20px; /* Espacio entre los contenedores */
+    margin: 20px auto; /* Centra el contenedor de los cursos */
+    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+}
+
+/* Estilo para cada curso individual */
+.curso {
+    background-color: #f8f9fa; /* Fondo claro para los cursos */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px;
+    width: 250px; /* Ancho fijo */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.2s; /* Transición para el efecto hover */
+    margin: 0 auto; /* Centra cada curso individualmente */
+}
+
+/* Efecto hover en los cursos */
+.curso:hover {
+    transform: scale(1.05);
+}
+
+/* Título del curso */
+.curso h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Botón de más información */
+.curso .btn-ver-mas {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Efecto hover en el botón */
+.curso .btn-ver-mas:hover {
+    background-color: #0056b3;
+}
+
+/* Descripción del curso */
+.curso p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Estilo para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para centrar el botón de inscripción */
+.inscripcion {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilo para el botón "Inscríbete Ahora" */
+.btn-inscribirse {
+    display: inline-block;
+    background-color: #28A745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en el botón de inscripción */
+.btn-inscribirse:hover {
+    background-color: #218838;
+}
+
+/* Nuevo contenedor para la página de descripción del curso */
+.contenedor-pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Contenedor para el título de la página */
+.titulo-pagina {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Contenedor para los detalles del curso */
+.curso-detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Actualización para los botones de curso */
+.curso-detalle .btn-ver-mas {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* Efecto hover en el botón "Ver Más" */
+.curso-detalle .btn-ver-mas:hover {
+    background-color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Sección de cursos inscritos */
+.mis-cursos {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mis-cursos h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.mis-cursos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mis-cursos li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Formulario de inscripción */
+.form-inscripcion {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-inscripcion h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.form-inscripcion label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-inscripcion input,
+.form-inscripcion select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-inscripcion button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-inscripcion button:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.boton-inscribirse {
+    display: block;
+    margin: 20px auto; /* Centra el botón horizontalmente */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-align: center; /* Asegura el texto centrado dentro del botón */
+}
+
+.boton-inscribirse:hover {
+    background-color: #45a049; /* Cambia el color al pasar el cursor */
+}
+
+/* Estilo para el botón de regresar al inicio */
+.boton-regresar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f44336; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.boton-regresar:hover {
+    background-color: #4dd32f; /* Cambia el color al pasar el cursor */
+}
